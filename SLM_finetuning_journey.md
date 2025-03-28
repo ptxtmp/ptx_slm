@@ -124,7 +124,16 @@ with open(output_file, 'w', encoding='utf-8') as out_file:
         text = extract_from_xml(xml_file)
         out_file.write(text + "\n\n")
 ```
+### Training Data
+For our fine-tuning experiment, we used a specialized dataset focused on textual criticism. The dataset ( textual_criticism.txt ) contained approximately 800KB of text material covering:
 
+- Principles of textual criticism in biblical studies
+- Historical methods for manuscript analysis
+- Techniques for identifying and resolving textual variants
+- Case studies of significant manuscript discoveries
+- Scholarly articles on the transmission of ancient texts
+
+This domain-specific dataset was chosen to test how well a small language model could adapt to specialized academic content. The relatively small size of the dataset (compared to the gigabytes used for training larger models) made it suitable for our hardware constraints while still providing enough material for meaningful fine-tuning.
 
 ## Step 6: Fine-tuning Configuration
 

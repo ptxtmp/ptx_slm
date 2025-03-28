@@ -89,6 +89,12 @@ This project has been tested on:
 ### Adding Support for New File Types
 To add support for additional file types, modify the prepare_data.py script to include new extraction functions.
 
+### Fine-Tuning Hyperparameters
+Experiment with different hyperparameters to find the best model for the dataset. Modify the distilgpt2_finetuning.py script to include these parameters.
+
+### Optimizing the Fine-Tuning Process
+Consider using distributed training or mixed-precision training for faster fine-tuning.
+
 ### Using Different Models
 While this project focuses on DistilGPT2, the same approach can be used for other models like:
 

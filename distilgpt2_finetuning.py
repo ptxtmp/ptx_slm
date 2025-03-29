@@ -19,6 +19,15 @@ model_name = "distilgpt2" # r"C:\\Users\\HP\\.lmstudio\\models\\RichardErkhov\\d
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
 model = GPT2LMHeadModel.from_pretrained(model_name)
 
+# Add padding token if not present
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token
+    model.config.pad_token_id = model.config.eos_token_id
+
+# Print token IDs to verify they're properly set
+print(f"EOS token ID: {model.config.eos_token_id}")
+print(f"PAD token ID: {model.config.pad_token_id}")
+
 # Explicitly move model to GPU if available
 if torch.cuda.is_available():
     model = model.cuda()
@@ -43,7 +52,8 @@ def load_and_prepare_dataset(file_path, tokenizer):
     return tokenized_dataset['train']
 
 # Path to your processed data file
-data_file = "c:/Users/HP/Documents/dev/slm/textual_criticism.txt"
+# data_file = "c:/Users/HP/Documents/dev/slm/textual_criticism.txt"
+data_file = "c:/Users/HP/Documents/dev/slm/ch01.txt"
 
 # Load and tokenize dataset
 tokenized_dataset = load_and_prepare_dataset(data_file, tokenizer)
@@ -52,12 +62,14 @@ tokenized_dataset = load_and_prepare_dataset(data_file, tokenizer)
 training_args = TrainingArguments(
     output_dir="c:/Users/HP/Documents/dev/slm/distilgpt2-finetuned",
     overwrite_output_dir=True,
-    num_train_epochs=3,
+    num_train_epochs=5,  # Increased from 3 to 5 for better convergence
     per_device_train_batch_size=2,  # Reduced from 4 to 2
     save_steps=10_000,
     save_total_limit=2,
     prediction_loss_only=True,
     fp16=True,  # Enable mixed precision training
+    logging_steps=500,  # Add logging to monitor training progress
+    logging_dir="c:/Users/HP/Documents/dev/slm/logs",  # Directory for storing logs
 )
 
 # Data collator
@@ -92,7 +104,9 @@ output = model.generate(
     num_return_sequences=1,
     temperature=0.7,
     top_p=0.9,
-    do_sample=True
+    do_sample=True,
+    repetition_penalty=1.2,  # Add repetition penalty to avoid loops
+    no_repeat_ngram_size=3,  # Prevent repetition of 3-grams
 )
 
 generated_text = tokenizer.decode(output[0], skip_special_tokens=True)

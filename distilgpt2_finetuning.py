@@ -3,111 +3,90 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer, TextDataset, DataCollat
 from transformers import Trainer, TrainingArguments
 from datasets import load_dataset
 
-# Add diagnostic information
+# Diagnostic setup
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"PyTorch version: {torch.__version__}")
-print(f"CUDA available: {torch.cuda.is_available()}")
-print(f"CUDA version: {torch.version.cuda if torch.cuda.is_available() else 'Not available'}")
+print(f"Using device: {device}")
 if torch.cuda.is_available():
     print(f"CUDA device: {torch.cuda.get_device_name(0)}")
-    print(f"CUDA device count: {torch.cuda.device_count()}")
 
-# Check if GPU is available
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-print(f"Using device: {device}")
-# After loading the model
-model_name = "distilgpt2" # r"C:\\Users\\HP\\.lmstudio\\models\\RichardErkhov\\distilbert_-_distilgpt2-gguf\\distilgpt2.Q4_K_S.gguf" 
+# Model setup
+model_name = "distilgpt2"
 tokenizer = GPT2Tokenizer.from_pretrained(model_name)
-model = GPT2LMHeadModel.from_pretrained(model_name)
+model = GPT2LMHeadModel.from_pretrained(model_name).to(device)
 
 # Add padding token if not present
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
     model.config.pad_token_id = model.config.eos_token_id
 
-# Print token IDs to verify they're properly set
-print(f"EOS token ID: {model.config.eos_token_id}")
-print(f"PAD token ID: {model.config.pad_token_id}")
-
-# Explicitly move model to GPU if available
-if torch.cuda.is_available():
-    model = model.cuda()
-    print("Model successfully moved to GPU")
-else:
-    print("GPU not available, using CPU")
-
-# Add padding token if not present
-if tokenizer.pad_token is None:
-    tokenizer.pad_token = tokenizer.eos_token
-    model.config.pad_token_id = model.config.eos_token_id
-
-# Prepare your dataset
-# For this example, we'll create a simple dataset from text files
+# Streamlined dataset preparation
 def load_and_prepare_dataset(file_path, tokenizer):
     dataset = load_dataset('text', data_files=file_path)
-    
-    def tokenize_function(examples):
-        return tokenizer(examples['text'], truncation=True, padding='max_length', max_length=128)
-    
-    tokenized_dataset = dataset.map(tokenize_function, batched=True, remove_columns=['text'])
-    return tokenized_dataset['train']
+    return dataset['train'].map(
+        lambda x: tokenizer(
+            x['text'], 
+            truncation=True, 
+            padding='max_length', 
+            max_length=128,
+        ),
+        batched=True, 
+        remove_columns=['text']
+    )
 
-# Path to your processed data file
-# data_file = "c:/Users/HP/Documents/dev/slm/textual_criticism.txt"
+# Preset paths
 data_file = "c:/Users/HP/Documents/dev/slm/ch01.txt"
-
-# Load and tokenize dataset
+logging_dir = "c:/Users/HP/Documents/dev/slm/logs"
+output_dir = "c:/Users/HP/Documents/dev/slm/distilgpt2-finetuned"
 tokenized_dataset = load_and_prepare_dataset(data_file, tokenizer)
 
-# Set up training arguments
+# Optimized training arguments for small notebook
 training_args = TrainingArguments(
-    output_dir="c:/Users/HP/Documents/dev/slm/distilgpt2-finetuned",
+    output_dir=output_dir,
     overwrite_output_dir=True,
-    num_train_epochs=5,  # Increased from 3 to 5 for better convergence
-    per_device_train_batch_size=2,  # Reduced from 4 to 2
-    save_steps=10_000,
+    num_train_epochs=5,                 # Increased from 3 to 5 for better convergence
+    per_device_train_batch_size=2,      # Reduced from 4 to 2
+    save_strategy="epoch",              # Save only at epoch end
     save_total_limit=2,
     prediction_loss_only=True,
-    fp16=True,  # Enable mixed precision training
-    logging_steps=500,  # Add logging to monitor training progress
-    logging_dir="c:/Users/HP/Documents/dev/slm/logs",  # Directory for storing logs
+    fp16=torch.cuda.is_available(),     # Use mixed precision only if CUDA available
+    logging_steps=100,                  # More frequent logging for better progress tracking
+    logging_dir=logging_dir,            # Directory for storing logs
+    gradient_accumulation_steps=4,      # Added to handle smaller batch sizes
+    warmup_steps=100,                   # Added warmup steps
+    learning_rate=5e-5,                 # Slightly reduced learning rate
 )
 
-# Data collator
-data_collator = DataCollatorForLanguageModeling(
-    tokenizer=tokenizer, 
-    mlm=False  # We're not using masked language modeling
-)
-
-# Initialize Trainer
+# Initialize trainer and train
 trainer = Trainer(
     model=model,
     args=training_args,
-    data_collator=data_collator,
+    data_collator=DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False),
     train_dataset=tokenized_dataset,
 )
 
 # Train the model
 trainer.train()
 
-# Save the model
-model.save_pretrained("c:/Users/HP/Documents/dev/slm/distilgpt2-finetuned")
-tokenizer.save_pretrained("c:/Users/HP/Documents/dev/slm/distilgpt2-finetuned")
+# Save the final model
+model.save_pretrained(output_dir)
+tokenizer.save_pretrained(output_dir)
 
-# Test the model
-prompt = "What is the role of textual criticism"
-input_ids = tokenizer.encode(prompt, return_tensors="pt").to(device)
-model = model.to(device)
+# Test generation with optimized parameters
+def generate_text(prompt, model, tokenizer, device):
+    input_ids = tokenizer.encode(prompt, return_tensors="pt").to(device)
+    output = model.generate(
+        input_ids,
+        max_length=100,
+        num_return_sequences=1,
+        temperature=0.7,
+        top_p=0.9,
+        do_sample=True,
+        repetition_penalty=1.2,  # Add repetition penalty to avoid loops
+        no_repeat_ngram_size=3,  # Prevent repetition of 3-grams
+        pad_token_id=tokenizer.pad_token_id,
+    )
+    return tokenizer.decode(output[0], skip_special_tokens=True)
 
-output = model.generate(
-    input_ids,
-    max_length=100,
-    num_return_sequences=1,
-    temperature=0.7,
-    top_p=0.9,
-    do_sample=True,
-    repetition_penalty=1.2,  # Add repetition penalty to avoid loops
-    no_repeat_ngram_size=3,  # Prevent repetition of 3-grams
-)
-
-generated_text = tokenizer.decode(output[0], skip_special_tokens=True)
-print(f"Generated text: {generated_text}")
+test_prompt = "What is the role of textual criticism"
+print(f"Generated text: {generate_text(test_prompt, model, tokenizer, device)}")

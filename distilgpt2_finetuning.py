@@ -42,19 +42,27 @@ tokenized_dataset = load_and_prepare_dataset(data_file, tokenizer)
 
 # Optimized training arguments for small notebook
 training_args = TrainingArguments(
-    output_dir=output_dir,
-    overwrite_output_dir=True,
-    num_train_epochs=5,                 # Increased from 3 to 5 for better convergence
+    seed=42,                            # Seed for reproducibility
+    num_proc=4,                         # Number of processes
+    output_dir=output_dir,              # Output directory
+    overwrite_output_dir=True,          # Overwrite the output directory
+    num_train_epochs=10,                # Increased from 5 to 10 for better convergence
     per_device_train_batch_size=2,      # Reduced from 4 to 2
     save_strategy="epoch",              # Save only at epoch end
-    save_total_limit=2,
-    prediction_loss_only=True,
+    save_total_limit=3,                 # Keep the latest 3 checkpoints
+    prediction_loss_only=True,          # Only log loss
     fp16=torch.cuda.is_available(),     # Use mixed precision only if CUDA available
     logging_steps=100,                  # More frequent logging for better progress tracking
     logging_dir=logging_dir,            # Directory for storing logs
     gradient_accumulation_steps=4,      # Added to handle smaller batch sizes
     warmup_steps=100,                   # Added warmup steps
     learning_rate=5e-5,                 # Slightly reduced learning rate
+    weight_decay=0.01,                  # Added weight decay
+    max_grad_norm=1.0,                  # Added gradient clipping
+    max_steps=-1,                       # Run until convergence
+    lr_scheduler_type="cosine",         # Added learning rate scheduler
+    optim="adamw_torch",                # Added optimizer
+    dataloader_num_workers=4,           # Added number of workers for dataloader    
 )
 
 # Initialize trainer and train

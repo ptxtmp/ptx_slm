@@ -1,0 +1,524 @@
+PART I
+
+Introductory Material
+
+Introduction to Textual Criticism
+
+This chapter sets forth the aim of this book and the deﬁnition, purpose, goal
+and importance of textual criticism. It describes the differences between Old
+Testament and New Testament textual criticism and deﬁnes the term variant
+reading.
+
+The job of the textual critic is very similar to that of a detective searching
+for clues as to the original reading of the text. It is reminiscent of the master
+detective Sherlock Holmes who could determine a number of characteris-
+tics of the suspect from the slightest of clues left at the crime scene. In our
+case the “crime scene” is the biblical text, and often we have far fewer clues
+to  work  from  than  we  would  like.  Yet  the  job  of  the  textual  critic  is  ex-
+tremely important, for we are trying to determine the exact reading of a text
+in  order  to  know  what  God  has  said  and  expects  from  us.  This  book  de-
+scribes the basic principles involved in the process of determining the most
+reliable reading of the text. Let’s begin our journey with a deﬁnition of tex-
+tual criticism.
+
+1.1 Deﬁnition of Textual Criticism
+
+It can be difﬁcult for today’s student, who photocopies, sends faxes and reads
+hundreds  of  pages  for  assignments,  to  appreciate  how  painstaking  a  task  it
+was to copy a book before the introduction of movable type. In reading any
+version of the Bible today, it is essential to understand that its books under-
+went many centuries of hand copying before the appearance of the printing
+press in the ﬁfteenth century A.D.
+
+Unfortunately no original manuscripts (called “autographs”) of any of the
+biblical  books  have  been  recovered,  and  since  no  extant  manuscripts  agree
+with each other in every detail, textual criticism is necessary to resolve ques-
+tions of variation. Alfred E. Housman, a text critic of classical works, observes
+
+that textual criticism is based on
+“common  sense  and  the  use  of
+reason.”1  Brieﬂy  stated,  textual
+criticism is the science and art that
+seeks to determine the most reliable
+wording  of  a  text.2  It  is  a  science
+because  speciﬁc  rules  govern
+the  evaluation  of  various  types
+of  copyist  errors  and  readings,
+but it is also an art because these
+rules  cannot  rigidly  be  applied
+in every situation. Intuition and
+common  sense  must  guide  the
+process of determining the most
+Informed
+reading. 
+plausible 
+judgments  about  a  text  depend
+on  one’s  familiarity  with  the
+types  of  copyist  errors,  manu-
+scripts,  versions  and  their  au-
+thors.  It  is  a  complex  process
+with few shortcuts, but one that
+can be learned through system-
+atic effort. 
+
+Figure 1.1 A scribe at work. At the end of an Ar-
+menian manuscript of the Gospels, a scribe de-
+scribes  his  hard-working  conditions,  saying
+that his ink had frozen and that his ﬁngers were
+still  stiff  due  to  the  cold  of  the  snowstorm
+(Bruce  M.  Metzger,  The  Text  of  the  New  Testa-
+ment,  3rd  ed.  [New  York:  Oxford  University
+Press, 1992], p. 18). Another scribe graphically
+describes  the  harsh  effects  of  his  painstaking
+job:  “Writing  bows  the  back,  thrusts  the  ribs
+into one’s stomach, and fosters a general debil-
+ity of the body” (Ibid., pp. 17-18). [Bibliothèque
+nationale de France]
+
+1.2 Importance of Textual Criticism
+
+The importance of textual criticism is threefold. First and foremost, it at-
+tempts to establish the most reliable reading of the text. Second, in cases
+where a deﬁnitive reading is impossible to determine, it can help to avoid
+dogmatism. Third, it can help the reader better understand the signiﬁcance
+of marginal readings that appear in various Bible translations. Textual crit-
+icism is not a matter of making negative comments or observations about
+the biblical text; instead it is the process of searching through the various
+sources of the biblical texts to determine the most accurate or reliable read-
+ing of a particular passage. It can, in fact, actually lead to increased conﬁ-
+dence in the reliability of the biblical texts. Bruce K. Waltke notes that in the
+Biblia Hebraica Stuttgartensia (the most recent critical edition of the Hebrew
+
+1Alfred E. Housman, “The Application of Thought to Textual Criticism,” Proceedings of the
+Classical Association 18 (1922): 67.
+2See P. Kyle McCarter, Textual Criticism: Recovering the Text of the Hebrew Bible, GBS:OTS (Phil-
+adelphia: Fortress, 1986), p. 18. 
+
+
+Bible; hereafter BHS) approximately one textual note appears for every ten
+words; thus 90 percent of the text is without signiﬁcant variation.3 Accord-
+ing to Shemaryahu Talmon, even the errors and textual variations that exist
+“affect the intrinsic message only in relatively few instances.”4 Similarly in
+the New Testament, the fourth edition of the United Bible Societies’ (here-
+after UBS) Greek New Testament text notes variants regarding approximately
+500 out of 6,900 words, or only about seven percent of the text.5 Textual crit-
+icism, therefore, mainly concerns itself with this small portion of the bibli-
+cal  text  called  “variant  readings.” A  variant  reading  is  any  difference  in
+wording (e.g., differences in spelling, added or omitted words) that occurs
+among manuscripts.
+
+Sir  Frederic  Kenyon  (d.  August  1952),  a  renowned  New  Testament  text
+critic of the twentieth century, summarized the overall favorable result of New
+Testament textual criticism:
+
+It is reassuring at the end to ﬁnd that the general result of all these discoveries
+and all this study is to strengthen the proof of the authenticity of the Scriptures,
+and our conviction that we have in our hands, in substantial integrity, the verita-
+ble Word of God.6
+
+Many things have changed in the area of textual criticism over the last ﬁve
+decades since Kenyon. Further examination of the manuscripts from the Dead
+Sea area have revolutionized the study of Old Testament textual criticism, and
+more Greek manuscripts or fragments are now available for New Testament
+studies  (i.e.,  manuscripts  from  St.  Catherine’s  Monastery  presently  number
+301; one of the newest manuscripts published, â116, is a fragment of Hebrews
+2:9-11 and 3:3-6).7 Even though we have more evidence today than any previ-
+ous generation, the issues of textual criticism have become more complex than
+ever. Still there are relatively few signiﬁcant variants in the Bible, and among
+these variants there is very little difference in meaning and content. To help
+put this into perspective it is commonly said that no theological doctrine or is-
+
+3Bruce K. Waltke, “Old Testament Textual Criticism,” in Foundations for Biblical Interpreta-
+tion, ed. David S. Dockery, Kenneth A. Matthews and Robert Sloan (Nashville: Broadman,
+1994), p. 157. See also Bruce K. Waltke, “Textual Criticism of the Old Testament and Its Re-
+lationship to Exegesis and Theology,” in New International Dictionary of Old Testament The-
+ology & Exegesis, vol. 1, ed. Willem A. VanGemeren (Grand Rapids: Zondervan, 1997), esp.
+pp. 64-66.
+4Shemaryahu Talmon, “Old Testament Text,” CHB 1:161. 
+5The textual appendix of this Greek text only notes passages where there are signiﬁcant ques-
+tions regarding the text. 
+6Frederic G. Kenyon, The Story of the Bible, 2nd ed. (London: John Murray, 1964), p. 113.
+7Amﬁlochios Papathomas, “A New Testimony to the Letter of the Hebrews,” JGRCJ 1 (2000):
+18-24.
+
+2005 Students Guide.book  Page 26  Thursday, June 17, 2010  3:07 PM
+
+
+sue hinges on a textual variant,8 and that there are more differences between
+the various English translations of the New Testament than among the Greek
+manuscripts.9
+
+1.3 Differences Between Old Testament and New Testament Textual 
+Criticism
+
+Old Testament textual criticism differs from New Testament textual criticism
+for  two  principal  reasons:  (1)  the  time  period  during  which  Old  Testament
+manuscripts were copied is much greater, and (2) they have different starting
+points. It is no surprise that the history of transmission for the Old Testament
+is much longer than the New Testament’s, but there are also other issues that
+make their histories signiﬁcantly different. 
+
+1.3.1 Old Testament Transmissional History
+
+If Moses, traditionally dated to the ﬁfteenth century B.C., wrote any of the bib-
+lical texts, then some Old Testament texts may have been copied for over three
+thousand years.10 The earliest extant copy of any part of the Old Testament is
+of two verses from the book of Numbers inscribed on silver amulets dated to
+the seventh century  B.C. (see pp. 140-42). The next oldest texts, dated to the
+third  century  B.C.,  come  from  the  Dead  Sea  area  (e.g.,  4QSamb  [4Q52]  and
+4QJera [4Q70]).11 There are very few extant, early manuscripts or fragments of
+the Old Testament, but in contrast, there are about ninety-three manuscripts or
+manuscript fragments of the New Testament that are dated within three hun-
+dred years after the New Testament was written.12 This does not even take into
+account the numerous quotations from early church fathers. 
+
+Until 1947 one of the oldest, accessible complete Hebrew manuscripts was
+Codex  Leningradensis  (Leningrad  Public  Library  Ms.  B  19A),  dated  to  A.D.
+1008, though portions of other biblical books were available from possibly 100
+to 150 years earlier (e.g., British Museum Codex OR. 4445 [of the Pentateuch;
+dated to about A.D. 820-850]; Codex Cairensis [dated to about A.D. 895]).13 But
+
+8Waltke, “Textual Criticism of the Old Testament,” p. 65; Bruce M. Metzger, The Text of the New
+Testament: Its Transmission, Corruption, and Restoration, 3rd ed. (New York: Oxford University
+Press, 1992), p. 112. 
+9Paul D. Wegner, The Journey from Texts to Translations (Grand Rapids: Baker, 1999), p. 213. See
+also David A. Black, New Testament Textual Criticism: A Concise Guide (Grand Rapids: Baker,
+2001), p. 13.
+10Bruce K. Waltke and Michael O’Connor, An Introduction to Biblical Hebrew Syntax (Winona
+
+Lake, Ind.: Eisenbrauns, 1990), p. 4.
+
+11Frank M. Cross, “The Oldest Manuscripts from Qumran,” JBL 74 (1955): 147-72.
+12Kurt Aland and Barbara Aland, The Text of the New Testament, trans. Erroll F. Rhodes (Grand
+
+Rapids: Eerdmans, 1979), chart on p. 81.
+
+13The Aleppo Codex dates to about A.D. 930, but was not accessible until more recently.
+
+
+DEAD SEA SCROLLS
+Since 1947 at least 900 manuscripts have been found in caves along the
+western shore of the Dead Sea. The largest number of these manuscripts
+were at a site commonly known as Qumran, leading them to be referred to
+as the Qumran scrolls. From Cave 4 came over 500 documents, many of
+which were either simply fragments or unreadable (see ﬁg. 1.2). The manu-
+scripts are generally dated between 250 B.C. to A.D. 135. About one quar-
+ter are portions of biblical texts.a Some of the biblical books were repre-
+sented by a great number of copies (e.g., the book of Isaiah had twenty-one
+different  manuscripts),  whereas  Esther  and  possibly  Nehemiah  were  not
+represented at all. It is uncertain whether the omission of the books of Esther
+and Nehemiah was intentional or accidental.b
+
+aJames C. VanderKam, The Dead Sea Scrolls Today (Grand Rapids: Eerdmans, 1994),
+p. 31.
+bMost scholars believe that Ezra and Nehemiah were considered one book at this time
+based on the following information: (1) In Contra Apion 1:8 (dated to A.D. 93-95) Jo-
+sephus states there are twenty-two canonical books. (2) Jubilees 2:23 refers to twenty-
+two canonical books (dated between 170-140 B.C.). (3) 4 Ezra 14:44-46 says there are
+twenty-four canonical books (dated to the ﬁrst century A.D.). In order to arrive at twenty-
+two  canonical  books  we  must  combine  the  following  books:  (1)  Judges  and  Ruth,
+(2) 1-2 Samuel, (3) 1-2 Kings, (4) Jeremiah and Lamentations, (5) the Twelve Minor
+Prophets (generally called The Book of the Twelve), (6) Ezra and Nehemiah, and (7)
+1-2 Chronicles. To achieve twenty-four canonical books Judges and Ruth as well as Jer-
+emiah and Lamentations are considered separate books.
+
+in the middle of the twentieth century things began to change and the number
+of early manuscripts of the Old Testament increased signiﬁcantly, largely due
+to  the  discovery  of  manuscripts  in  the  Judean  Desert  (commonly  called  the
+Dead Sea Scrolls). 
+
+The discovery of the Dead Sea Scrolls revolutionized the ﬁeld of Old Testa-
+ment  textual  criticism  because  for  the  ﬁrst  time  Hebrew  manuscripts  (or  at
+least fragments) from at least as early as the ﬁrst century B.C. were available for
+most of the Old Testament.14 Nevertheless, most of the earliest extant Hebrew
+manuscripts are still a signiﬁcant distance from the autographs of the Old Tes-
+tament.
+
+Not  only  is  there  a  signiﬁcant  difference  in  the  number  of  early  manu-
+scripts but also the transmissional history is different. Throughout the his-
+tory of the Old Testament the Israelites appear to have had a group of scribes
+
+14James C. VanderKam, The Dead Sea Scrolls Today (Grand Rapids: Eerdmans, 1994), p. 31.
+
+2005 Students Guide.book  Page 28  Thursday, June 17, 2010  3:07 PM
+
+
+Figure 1.2. Cave 4 at Qumran in which approximately 400 to 600 ancient manuscripts were
+found [Paul D. Wegner]
+
+or  priests  dedicated  to  the  job  of  preserving  and  maintaining  their  sacred
+Scriptures. This was often not the case for the New Testament manuscripts
+since the Christian church was persecuted during much of its early history,
+and  manuscript  copies  made  by  professional  scribes  were  very  expensive.
+Many early New Testament manuscripts were copied by believers who de-
+sired to have their own copy of these precious works. Thus there are more
+manuscripts  from  this  early  trans-
+missional period of the New Testa-
+ment,  though  they  may  also  be
+more  ﬂawed  since  they  were  not
+made  by  professional  scribes.
+Sometimes  they  only  had  a  few
+verses  written  on  whatever  mate-
+rial  was  available  (e.g.,  potsherds,
+scraps  of  papyrus  or  parchment).
+The  following  picture  is  an  ostra-
+con (piece of broken pottery) from
+the  seventh  century  A.D.  found  in
+Upper Egypt with an inscription of
+Luke  22:70-71,  sometimes  referred
+to as “the poor man’s Bible.”
+
+Figure 1.3. The “poor man’s Bible,” an ostra-
+con of Luke 22:70-71 from the seventh century
+A.D. [Institut Français d’archéologie orientale]
+
+
+1.3.2 Different Starting Points
+
+Largely because of the lack of early Old Testament manuscripts (in contrast to
+the plethora of New Testament manuscripts) and the differences in the trans-
+missional process between the Old and New Testament manuscripts, the text
+critics  of  each  of  the  testaments  have  been  led  to  different  starting  points.
+James Barr explains it well:
+
+With a non-uniform text [e.g., the New Testament] we may ﬁnd variant readings,
+and textual discussion begins from the variant readings, even if all of them “make
+sense.” With a text of high uniformity [e.g., the Old Testament], however, textual
+discussion will more frequently begin from the feeling that there is a “difﬁculty”;
+the procedure will be more independent of the existence of variant readings.15
+
+This makes the task of Old Testament text critics more subjective than that
+of their New Testament counterparts. P. Kyle McCarter notes the additional
+difﬁculty that a text may be corrupt even though it remains clear and easy to
+understand:
+
+A  copyist  who  inadvertently  strays  from  his  text  is  much  more  likely  to  write
+something  familiar  to  himself—something  he  frequently  writes—than  some-
+thing unfamiliar. It is the nature of scribal error that it tends to produce the ordi-
+nary, commonplace, or “easy” reading. Corrupt texts, therefore, very often read
+quite smoothly.16
+
+This leads us to our next question, namely, what is the goal or aim of textual
+
+criticism?
+
+1.4 Goal of Textual Criticism
+
+Since no autographs are available today of either the Old or New Testaments,
+the general task of the text critic is to get back as close as possible to those au-
+tographs. This is no easy task, for textual criticism is also affected by higher-
+critical matters, such as how and when a text reached its ﬁnal form. 
+
+1.4.1 Goal of Old Testament Textual Criticism
+
+It is difﬁcult to know when the composition of a biblical book was completed
+and the transmission of the text began. This is complicated further by the pos-
+sibility  that  these  two  processes  may  overlap  to  some  extent.  It  was  once
+thought possible to recover the ipsissima verbs (“actual words”) of the inspired
+writer and that these were the original autographs of Scripture. However, today
+most scholars recognize that it is impossible to trace the formation of any of the
+
+15James Barr, Comparative Philology and the Text of the Old Testament: With Additions and Correc-
+
+tions (Winona Lake, Ind.: Eisenbrauns, 1987), p. 4.
+
+16McCarter, Textual Criticism, p. 14.
+
+2005 Students Guide.book  Page 30  Thursday, June 17, 2010  3:07 PM
+
+
+Old Testament books and that most have undergone later modiﬁcations.17 Just
+three examples will sufﬁce to indicate that even the most conservative scholars
+must allow for some modiﬁcation of the original texts. (1) In Genesis 14:14, the
+city of Laish (Judg 18:29), or Leshem (Josh 19:47), is called “Dan” before its name
+was ever changed to “Dan,” and no manuscript evidence suggests a different
+reading.18  It  is  most  likely  that  an  editor  later  changed  it  so  that  his  readers
+would understand which city was being indicated. (2) Deuteronomy 34 records
+the death of Moses, and verse 10 even states that “since that time [i.e., the death
+of Moses] no prophet has arisen in Israel like Moses,” which implies that this
+chapter must have been written sometime after Moses’ death. Jewish tradition
+holds that Joshua wrote this chapter.19 Others suggest a Deuteronomistic edi-
+tor.20 But when was it added to the rest of Deuteronomy? Because all of the He-
+brew manuscripts contain this chapter, it must have been added fairly early and
+then maintained by the scribes. (3) The phrase “and within yet sixty-ﬁve years
+Ephraim will be shattered from being a people” in Isaiah 7:8 has puzzled schol-
+ars for years since it does not appear to ﬁt the context, even though its informa-
+tion is correct. Esarhaddon (680-669 B.C.) or Ashurbanipal (= Osnappar, 669-627
+B.C.) came through approximately sixty-ﬁve years after the time of Isaiah 7 and
+deported more people from Israel (cf. Ezra 4:2, 9-10).21 The most likely explana-
+tion is that this phrase was added by an editor or copyist sometime later (per-
+haps when these events happened), but once again no textual evidence suggests
+that this phrase was a later addition to the text. Since these parts appear in all the
+extant Hebrew manuscripts and ancient versions, they must have been put into
+the  text  fairly  early  and  apparently  were  part  of  the  authoritative  text  main-
+tained by the scribes. Thus our understanding of the ﬁnal form of the text must
+include at least these types of modiﬁcations of the text.
+
+17Bruce  K.  Waltke,  “Aims  of  Old  Testament  Textual  Criticism,”  WTJ  51  (1989):  93.  See  also
+Michael Fishbane, Biblical Interpretation in Ancient Israel (Oxford: Clarendon, 1985), pp. 44-88.
+18Derek Kidner, Genesis: An Introduction and Commentary, TOTC (Downers Grove, Ill.: Inter-
+Varsity Press, 1967), p. 16; Bruce K. Waltke and Cathi J. Fredricks, Genesis. A Commentary
+(Grand Rapids: Zondervan, 2001), pp. 232; Claus Westermann, Genesis 12-36. A Commen-
+tary, trans. John J. Scullion (Minnneapolis: Augsburg, 1985), p. 201.
+
+19b. B. Bat. 14b and Ibn Ezra (Joseph H. Hertz, ed., The Pentateuch and Haftorahs. Hebrew Text
+English Translation and Commentary [London: Soncino, 1972], p. 916. Josephus believed that
+Moses himself wrote this chapter (Antiquities of the Jews, 4.8.48).
+
+20Andrew D. H. Mayes, Deuteronomy, NCBC (Grand Rapids: Eerdmans, 1979), pp. 47, 413-14.
+21Joseph Blenkinsopp, Isaiah 1-39: A New Translation with Introduction and Commentary, AB 19
+(New York: Doubleday, 2000), p. 229; Brevard S. Childs, Isaiah, OTL (Louisville, Ky.: West-
+minster  John  Knox,  2001),  p.  65;  Ronald  E.  Clements,  Isaiah  1-39,  NCBC  (Grand  Rapids:
+Eerdmans,  1980),  p.  85;  J.  Alec  Motyer,  Isaiah:  An  Introduction  and  Commentary,  TOTC
+(Downers Grove, Ill.: InterVarsity Press, 1999), p. 76; John N. Oswalt, The Book of Isaiah 1-39,
+NICOT (Grand Rapids: Eerdmans, 1986), pp. 201-2; Hans Wildberger, Isaiah 1-12: A Com-
+mentary, trans. Thomas H. Trapp (Minneapolis: Fortress, 1991), p. 302.
+
+
+Table 1.1. Perceived Goals of Old Testament Textual Criticism
+
+Goal
+
+Description
+
+Scholars
+
+1. Restore the origi-
+nal composition 
+
+The goal is to recover the author’s ipsissima 
+verba, “to establish the text as the author 
+wished to have it presented to the public.”
+
+Most older textual 
+critics, Harrisona
+
+2. Restore the ﬁnal 
+form of the text 
+(most modern tex-
+tual critics)
+
+The goal is to recover the ipsissima verba of 
+the ﬁnal redactor, assuming that the book 
+has gone through some evolutionary process 
+to get to this ﬁnal form.
+
+Brotzman,b Deist,c 
+Würthweind
+
+3. Restore the earli-
+est attested form
+
+The goal is to recover the earliest attested 
+form of the text for which there are actual 
+textual witnesses. Generally the text in view 
+is from the second century B.C., and conjec-
+tural emendations are not allowed.
+
+Hebrew University 
+Bible Project, UBS 
+Hebrew Old Testa-
+ment Text Project
+
+4. Restore accepted 
+texts (plural)
+
+The goal is to recover the texts as they were 
+accepted by particular religious communi-
+ties. Each text may differ according to the 
+authoritative standard of its particular com-
+munity. 
+
+James Sanders, 
+Brevard Childs 
+(though he centers 
+on the MT text 
+accepted by the Jews)
+
+5. Restore ﬁnal texts 
+(plural)
+
+6. Restore all various 
+“literary editions” of 
+the Old Testament
+
+The goal is to recover the ﬁnal form of the 
+text. In some books or pericopes this may 
+mean that there are several equally valid 
+texts of the Old Testament that need to be 
+restored.
+
+The goal is not to just reproduce the MT, but 
+to restore all the “literary editions” of the 
+various writings that can be discerned in the 
+evolution of the Hebrew Bible (e.g., the LXX, 
+SP, MT, as well as all others represented at 
+Qumran and other places).
+
+Emanuel Tov,e Bruce 
+K. Waltkef
+
+Eugene Ulrichg
+
+aRoland K. Harrison, Introduction to the Old Testament (Grand Rapids: Eerdmans, 1969), p. 259.
+bEllis R. Brotzman, Old Testament Textual Criticism: A Practical Introduction (Grand Rapids: Baker, 1994), pp. 
+124, 129.
+cFerdinand E. Deist, Toward the Text of the Old Testament (Pretoria: Kerkboekhandel Transvaal, 1978), p. 24. 
+dErnst Würthwein, The Text of the Old Testament. An Introduction to the Biblia Hebraica, trans. Erroll F. 
+Rhodes, 2nd ed. (Grand Rapids: Eerdmans, 1995), p. 105.
+eEmanuel Tov, Textual Criticism of the Hebrew Bible, 2nd ed. (Minneapolis: Fortress, 2001), p. 171.
+fWaltke, “Old Testament Textual Criticism,” p. 175.
+gEugene Ulrich, “Multiple Literary Editions: Reﬂections Toward a Theory of the History of the Biblical 
+Text,” in Current Research and Technological Developments on the Dead Sea Scrolls: Conference on the Texts from 
+the Judaean Desert, Jerusalem, 30 April 1995, ed. Donald W. Perry and Stephen D. Ricks, Studies on the 
+Texts of the Desert of Judah 20 (Leiden: Brill, 1996), pp. 78-105. Ulrich disagrees signiﬁcantly with Tov: 
+“Thus the target of ‘textual criticism of the Hebrew Bible’ is not a single text. The purpose or function of 
+textual criticism is to reconstruct the history of the texts that eventually become the biblical collection in 
+both its literary growth and its scribal transmission; it is not just to judge individual variants in order to 
+determine which were ‘superior’ or ‘original.’ The ‘original text’ is a distracting concept for the Hebrew 
+Bible” (pp. 98-99).
+
+2005 Students Guide.book  Page 32  Thursday, June 17, 2010  3:07 PM
+
+
+Table 1.1 summarizes and augments the history of what scholars believe to
+be  the  goal  of  Old  Testament  textual  criticism  as  described  in  an  article  by
+Bruce K. Waltke.22 
+
+1.4.1.1 Final form or forms of the Old Testament text. Several modern scholars
+have adopted the goal of determining the ﬁnal form or the ﬁnal attested form
+of the text,23 but even the ability to do this has been questioned. Both Emanuel
+Tov and Bruce Waltke have argued that there may be several original forms of
+a biblical text,24 an idea based primarily on divergent readings of parallel pas-
+sages in the Old Testament (e.g., 2 Sam 22 // Ps 18; 2 Kings 18:13-20:19 // Is 36-
+39; Is 2:2-4 // Mic 4:1-3; Ps 14 // Ps 53; Ps 40:13-17 [MT 14-18] // Ps 70) and the
+existence of divergent manuscripts. Tov states:
+
+These  parallel  sources  are  based  on  ancient  texts  which  already  differed  from
+each other before they were incorporated into the biblical books, and which un-
+derwent changes after they were transmitted from one generation to the next as
+part of the biblical books. Hence, within the scope of the present analysis, these
+parallel texts, which are found in all biblical witnesses, including Mà [MT], are of
+particular interest. The differences between these parallel texts in Mà, as well as in
+other texts, could reﬂect very ancient differences created in the course of the copy-
+ing of the biblical text, similar to the differences known from a comparison of an-
+cient scrolls and manuscripts.25
+
+To  argue  for  two  separate  textual  traditions  based  on  the  differences  in
+these parallel passages is only one of the possible answers. Table 1.2 examines
+the differences in the text of the MT between Isaiah 2:2-4 and Micah 4:1-3 in
+more detail.
+
+Out of 272 consonants in Micah 4:1-3 there are only thirty that are different
+from those in Isaiah 2:2-4, or about 11 percent of the letters. The differences be-
+tween these consonants can be grouped in the following ways: several (12 con-
+sonants) are different because the words are out of order; some (25 consonants)
+use a different but similar word; one consonant adds a ﬁnal nu=n; one consonant
+uses a plural verb instead of a singular, and one adds a whole phrase (11 con-
+sonants). It is difﬁcult to know why these texts are so similar and yet contain
+differences. These differences may indicate two original sources or one source
+
+22Waltke,  “Aims  of  Old  Testament  Textual  Criticism,”  pp.  93-108.  See  also  Al  Wolters,
+“The Text of the Old Testament,” in The Faces of Old Testament Studies: A Survey of Con-
+temporary  Approaches,  ed.  David  W.  Baker  and  Bill  T.  Arnold  (Grand  Rapids:  Baker,
+1999), pp. 31-32.
